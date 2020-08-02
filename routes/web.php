@@ -31,5 +31,5 @@ Route::get('/paint_number40x50/{product_id}', 'ProductController@showPaint_numbe
 Route::get('/trip_number40x50', 'MainController@trip_number40x50');// all
 Route::get('/trip_number40x50/{product_id}', 'ProductController@showTrip_number40x50') -> name('showCard');// cart item
 // алмазная мозайка 20х30
-Route::get('/diamond_mosaic20x30', 'MainController@diamond_mosaic_20x30');// all
-Route::get('/trip_number40x50/{product_id}', 'ProductController@showTrip_number40x50') -> name('showCard');// cart item
+Route::get('/diamond_20x30', 'MainController@diamond_20x30');// all
+Route::get('/diamond_20x30/{product_id}', 'ProductController@showDiamond_20x30') -> name('showCard');// cart item

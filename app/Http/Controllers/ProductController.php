@@ -18,9 +18,9 @@ class ProductController extends Controller
         $item = \App\Paint_number_40x50::where('id_paint_number_40x50', $product_id) -> first();
         return view('showCard.showPaint_number40x50',['item' => $item]);
     }
-    public function showTrip_number40x50($product_id){
-        $item = \App\Trip_number_40x50::where('id_trip_number_40x50', $product_id) -> first();
-        return view('showCard.showTrip_number40x50',['item' => $item]);
+    public function showDiamond_20x30($product_id){
+        $item = \App\Diamond_20x30::where('id_diamond_20x30', $product_id) -> first();
+        return view('showCard.showDiamond_20x30',['item' => $item]);
     }
     
 }

@@ -37,6 +37,10 @@ class MainController extends Controller
         $projects = \App\Trip_number_40x50::paginate(9); //пагинация
         return view('navi_category/trip_number40x50', compact('projects'));
     }
+    public function diamond_20x30(){
+        $projects = \App\Diamond_20x30::paginate(9); //пагинация
+        return view('navi_category/diamond_20x30', compact('projects'));
+    }
    
     // запись заказа в бд
     public function store(){ 

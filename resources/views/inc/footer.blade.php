@@ -22,11 +22,12 @@
             </p>
         </div>
         <ul class="footСontainer-socialList">
-            <li><a href=""><img src="/images/social/icons8-instagram-50.svg" alt=""></a></li>
-            <li><a href=""><img src="/images/social/icons8-tiktok-50.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com/muse_frzn/?hl=ru" target="_blank"><img src="/images/social/icons8-instagram-50.svg" alt=""></a></li>
+            <li><a href="https://vm.tiktok.com/J23u2vB/"><img src="/images/social/icons8-tiktok-50.svg" alt=""></a></li>
             <li><a href="https://vk.com/muse_pictures" target="_blank"><img src="/images/social/icons8-vk.com-50.svg" alt=""></a></li>
-            <li><a href=""><img src="/images/social/icons8-whatsapp-50.svg" alt=""></a></li>
-            <li><a href=""><img src="/images/social/icons8-connect-50.svg" alt=""></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=79957892619" target="_blank"><img src="/images/social/icons8-whatsapp-50.svg" alt=""></a></li>
+            <li><a href="https://telegram.im/@Muse_pictures" target="_blank"><img src="/images/social/icons8-tele-app.svg" alt=""></a></li>
+            
         </ul>
     </div>
     <div class="footСontainer-contacts">
@@ -35,8 +36,8 @@
         </p>
         <ul class="footСontainer-contList">
             <li>Интернет магазин "Муза"</li>
-            <li>+7 (925) 245-29-61</li>
-            <li>Почта: ekzo_rock@mail.ru</li>
+            <li>+7 (995) 789-26-19</li>
+            <li>Почта: musepictures@mail.ru</li>
             <li>ИНН:56451254654</li>
         </ul>
     </div>
