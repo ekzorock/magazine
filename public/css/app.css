@@ -392,6 +392,8 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   justify-content: space-around;
   max-width: 1280px;
   margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .homeMenu .text {
@@ -686,7 +688,7 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
 
 .slider_container {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .slider_container .slider_home {
@@ -699,5 +701,12 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   width: 1260px;
   height: 300px;
   margin: 0 auto;
+}
+
+.slider_container .quote {
+  font-size: 30px;
+  text-align: center;
+  color: #5c4750;
+  padding: 40px;
 }
 

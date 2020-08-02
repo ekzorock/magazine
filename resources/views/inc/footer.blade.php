@@ -24,7 +24,7 @@
         <ul class="footСontainer-socialList">
             <li><a href=""><img src="/images/social/icons8-instagram-50.svg" alt=""></a></li>
             <li><a href=""><img src="/images/social/icons8-tiktok-50.svg" alt=""></a></li>
-            <li><a href=""><img src="/images/social/icons8-vk.com-50.svg" alt=""></a></li>
+            <li><a href="https://vk.com/muse_pictures" target="_blank"><img src="/images/social/icons8-vk.com-50.svg" alt=""></a></li>
             <li><a href=""><img src="/images/social/icons8-whatsapp-50.svg" alt=""></a></li>
             <li><a href=""><img src="/images/social/icons8-connect-50.svg" alt=""></a></li>
         </ul>
