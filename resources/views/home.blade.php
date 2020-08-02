@@ -6,6 +6,14 @@
 @endsection
 
 @section('content')
+
+
+
+    <div class="slider_container">
+    <img src="https://w7.pngwing.com/pngs/800/969/png-transparent-purple-and-blue-color-microsoft-powerpoint-desktop-slide-show-background-purple-template-blue.png" alt="" srcset="">
+    </div>
+
+    <!-- Менюшки с закругленными углами -->
     <div class="homeMenu">
         <div class="homeMenu-list1">
             <div class="text">Картины по номерам</div>
@@ -73,8 +81,5 @@
             </div>
         </div>
     </div>
-        
-  
-
   @endsection
   

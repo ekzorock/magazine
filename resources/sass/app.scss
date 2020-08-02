@@ -612,7 +612,17 @@ footer{
 }
 }
 
-
 .glist{
     border: none;
 }
+.slider_container{
+    text-align: center;
+    margin-top: 10px;
+        img{
+            border-radius: 15px;
+            border: 2px solid rgba(148,187,233,1);
+            width: 1260px;
+            height: 300px;
+        }
+}
+

@@ -179,3 +179,4 @@ thumbs.onclick = function(event) {
     largeImg.src = href;
     largeImg.alt = title;
   }
+
