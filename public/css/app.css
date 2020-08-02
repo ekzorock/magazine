@@ -689,10 +689,15 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   margin-top: 10px;
 }
 
-.slider_container img {
+.slider_container .slider_home {
+  background-image: url(/images/homeMenu/banner_home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
   border-radius: 15px;
   border: 2px solid #94bbe9;
   width: 1260px;
   height: 300px;
+  margin: 0 auto;
 }
 

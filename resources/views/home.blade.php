@@ -10,7 +10,9 @@
 
 
     <div class="slider_container">
-    <img src="https://w7.pngwing.com/pngs/800/969/png-transparent-purple-and-blue-color-microsoft-powerpoint-desktop-slide-show-background-purple-template-blue.png" alt="" srcset="">
+        <div class="slider_home">
+            
+        </div>
     </div>
 
     <!-- Менюшки с закругленными углами -->
