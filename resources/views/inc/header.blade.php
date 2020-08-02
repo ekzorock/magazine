@@ -38,10 +38,7 @@
                         </div>
                 </form>
                 </span>
-                
-        </div>
-        
-       
 
+        </div>
 </header>
 

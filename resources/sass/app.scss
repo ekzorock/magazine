@@ -641,3 +641,49 @@ footer{
         
 }
 
+
+// страница ПРО НАС
+.description_magazine{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        .block1{
+            .block1__text{
+                h2{
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+            .block1__images{
+                img{
+                    max-height: 500px;
+                }
+            }
+        }   
+        .block2{
+            .block2__text{
+                h2{
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                li{
+                    font-size: 20px;
+                }
+            }
+            .block2__images{
+                img{
+                    max-height: 500px;
+                }
+            }
+        } 
+}
+
