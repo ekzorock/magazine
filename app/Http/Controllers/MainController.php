@@ -50,6 +50,15 @@ class MainController extends Controller
         $projects = \App\DiamondSquare_30x40::paginate(9); //пагинация
         return view('navi_category/diamond_square_30x40', compact('projects'));
     }
+    public function diamond_square_40x50(){
+        $projects = \App\DiamondSquare_40x50::paginate(9); //пагинация
+        return view('navi_category/diamond_square_40x50', compact('projects'));
+    }
+    public function diamond_equal_40x50(){
+        $projects = \App\DiamondEqual_40x50::paginate(9); //пагинация
+        return view('navi_category/diamond_equal_40x50', compact('projects'));
+    }
+    
     
    
     // запись заказа в бд

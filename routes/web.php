@@ -40,3 +40,9 @@ Route::get('/diamond_sircle_40x50/{product_id}', 'ProductController@showDiamond_
 // алмазная мозайка квадратная 30х40
 Route::get('/diamond_square_30x40', 'MainController@diamond_square_30x40');// all
 Route::get('/diamond_square_30x40/{product_id}', 'ProductController@showDiamond_square_30x40') -> name('showCard6');// cart item
+// алмазная мозайка квадратная 40х50
+Route::get('/diamond_square_40x50', 'MainController@diamond_square_40x50');// all
+Route::get('/diamond_square_40x50/{product_id}', 'ProductController@showDiamond_square_40x50') -> name('showCard7');// cart item
+// алмазная мозайка с разнормазмерными стразами 40х50
+Route::get('/diamond_equal_40x50', 'MainController@diamond_equal_40x50');// all
+Route::get('/diamond_equal_40x50/{product_id}', 'ProductController@showDiamond_equal_40x50') -> name('showCard8');// cart item
