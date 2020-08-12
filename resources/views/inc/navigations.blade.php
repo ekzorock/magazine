@@ -12,8 +12,8 @@
             <li class="submenu2"><a class="submenu2" href="#">Алмазная мозайка</a>
                 <ul class="sublist2">
                     <li class="submenu2"><a class="submenu2" href="/diamond_20x30">Мозайка с круглыми стразами 20х30</a></li>
-                    <li class="submenu2"><a class="submenu2" href="#">Мозайка с круглыми стразами 40х50</a></li>
-                    <li class="submenu2"><a class="submenu2" href="#">Мозайка с квадратными стразами 30х40</a></li>
+                    <li class="submenu2"><a class="submenu2" href="/diamond_sircle_40x50">Мозайка с круглыми стразами 40х50</a></li>
+                    <li class="submenu2"><a class="submenu2" href="/diamond_square_30x40">Мозайка с квадратными стразами 30х40</a></li>
                     <li class="submenu2"><a class="submenu2" href="#">Мозайка с квадратными стразами 40х50</a></li>
                     <li class="submenu2"><a class="submenu2" href="#">Мозайка с разномерными стразами 40х50</a></li>
                     <li class="submenu2"><a class="submenu2" href="#">Мозайка 3D 40х50</a></li>

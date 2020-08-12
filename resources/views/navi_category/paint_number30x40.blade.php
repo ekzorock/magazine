@@ -13,7 +13,7 @@
                     <h2 class="price">Цена {{ $project ->price_paint_number_30x40 }}</h2>
                 </div>
                 <div class="buttonCart">
-                    <a href="{{route('showCard',[$project ->id_paint_number_30x40])}}" class="decriptionItem">Подробнее</a>
+                    <a href="{{route('showCard1',[$project ->id_paint_number_30x40])}}" class="decriptionItem">Подробнее</a>
                     <button class="basketBut {{ $project ->id_paint_number_30x40 }}">В корзину</button>
                 </div>
             </li>
