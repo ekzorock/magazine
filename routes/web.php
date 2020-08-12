@@ -46,3 +46,12 @@ Route::get('/diamond_square_40x50/{product_id}', 'ProductController@showDiamond_
 // алмазная мозайка с разнормазмерными стразами 40х50
 Route::get('/diamond_equal_40x50', 'MainController@diamond_equal_40x50');// all
 Route::get('/diamond_equal_40x50/{product_id}', 'ProductController@showDiamond_equal_40x50') -> name('showCard8');// cart item
+// алмазная мозайка 3D 40х50
+Route::get('/mosaic3d_40x50', 'MainController@mosaic3d_40x50');// all
+Route::get('/mosaic3d_40x50/{product_id}', 'ProductController@showMosaic3d_40x50') -> name('showCard9');// cart item
+// выщивка крестиком 40х40
+Route::get('/embroidery_40x40', 'MainController@embroidery_40x40');// all
+Route::get('/embroidery_40x40/{product_id}', 'ProductController@showEmbroidery_40x40') -> name('showCard10');// cart item
+// выщивка крестиком 40х50
+Route::get('/embroidery_40x50', 'MainController@embroidery_40x50');// all
+Route::get('/embroidery_40x50/{product_id}', 'ProductController@showEmbroidery_40x50') -> name('showCard11');// cart item

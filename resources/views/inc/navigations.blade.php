@@ -16,13 +16,13 @@
                     <li class="submenu2"><a class="submenu2" href="/diamond_square_30x40">Мозайка с квадратными стразами 30х40</a></li>
                     <li class="submenu2"><a class="submenu2" href="/diamond_square_40x50">Мозайка с квадратными стразами 40х50</a></li>
                     <li class="submenu2"><a class="submenu2" href="/diamond_equal_40x50">Мозайка с разномерными стразами 40х50</a></li>
-                    <li class="submenu2"><a class="submenu2" href="#">Мозайка 3D 40х50</a></li>
+                    <li class="submenu2"><a class="submenu2" href="/mosaic3d_40x50">Мозайка 3D 40х50</a></li>
                 </ul>
             </li>
             <li class="submenu3"><a class="submenu3" href="#">Вышивка</a>
                 <ul class="sublist3">
-                    <li class="submenu3"><a class="submenu3" href="#">Вышивка крестиком 40х40</a></li>
-                    <li class="submenu3"><a class="submenu3" href="#">Вышивка крестиком 40х50</a></li>
+                    <li class="submenu3"><a class="submenu3" href="/embroidery_40x40">Вышивка крестиком 40х40</a></li>
+                    <li class="submenu3"><a class="submenu3" href="/embroidery_40x50">Вышивка крестиком 40х50</a></li>
                 </ul>
             </li>
             <li><a href="/rumbox">Румбоксы</a></li>

@@ -42,5 +42,17 @@ class ProductController extends Controller
         $item = \App\DiamondEqual_40x50::where('id_diamond_equal_40x50', $product_id) -> first();
         return view('showCard.showDiamond_equal_40x50',['item' => $item]);
     }
+    public function showMosaic3d_40x50($product_id){
+        $item = \App\Mosaic3d_40x50::where('id_mosaic3d_40x50', $product_id) -> first();
+        return view('showCard.showMosaic3d_40x50',['item' => $item]);
+    }
+    public function showEmbroidery_40x40($product_id){
+        $item = \App\Embroidery_40x40::where('id_embroidery_40x40', $product_id) -> first();
+        return view('showCard.showEmbroidery_40x40',['item' => $item]);
+    }
+    public function showEmbroidery_40x50($product_id){
+        $item = \App\Embroidery_40x50::where('id_embroidery_40x50', $product_id) -> first();
+        return view('showCard.showEmbroidery_40x50',['item' => $item]);
+    }
     
 }

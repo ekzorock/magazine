@@ -58,6 +58,18 @@ class MainController extends Controller
         $projects = \App\DiamondEqual_40x50::paginate(9); //пагинация
         return view('navi_category/diamond_equal_40x50', compact('projects'));
     }
+    public function mosaic3d_40x50(){
+        $projects = \App\Mosaic3d_40x50::paginate(9); //пагинация
+        return view('navi_category/mosaic3d_40x50', compact('projects'));
+    }
+    public function embroidery_40x40(){
+        $projects = \App\Embroidery_40x40::paginate(9); //пагинация
+        return view('navi_category/embroidery_40x40', compact('projects'));
+    }
+    public function embroidery_40x50(){
+        $projects = \App\Embroidery_40x50::paginate(9); //пагинация
+        return view('navi_category/embroidery_40x50', compact('projects'));
+    }
     
     
    
