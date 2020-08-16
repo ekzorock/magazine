@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes(['register' => false]);
 Route::get('/', 'MainController@index');
 Route::post('/', 'MainController@store');
 Route::get('/about', 'MainController@about');
-Route::get('/contact', 'MainController@contact')->middleware('auth');
+Route::get('/contact', 'MainController@contact');
+Route::get('/adminpanel', 'MainController@admin')->middleware('auth');
 
 // румбоксы
 Route::get('/rumbox', 'MainController@rumbox'); //all
