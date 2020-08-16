@@ -7,9 +7,14 @@
 
 @section('content')
     <section class="description_magazine">
+        <div>
+            <h2>Наша история</h2>
+        </div>
         <div class="block1">
+            <div class="block1__images">
+                <img src="/images/about/motivation1.jpg" alt="muse.logo2" srcset="">
+            </div>
             <div class="block1__text">
-                <h2>Наша история</h2>
                 <p> Формально наш магазин появился на свет 30 января 2020 года, изначально он представлял из себя группу в Вконтакте.
                 Паблика хватало для разовых заказов, группа постепенно развивалась, приходили новые покупатели. Мы вводили хорошие акции.
                 Оказывали консультации покупателям.
@@ -19,14 +24,15 @@
                 вам качественный сервис, богатый ассортимент товаров, и возможность творить =)
                 </p>
             </div>
-            <div class="block1__images">
-                <img src="/images/social/muse.logo2.jpg" alt="muse.logo2" srcset="">
-            </div>
+        </div>
+
+        <div class="about_text">
+            <h2>От нас к вам</h2>
         </div>
 
         <div class="block2">
+        
             <div class="block2__text">
-                <h2>От нас к вам</h2>
                 <ul>
                 <li>Обеспечение качественного сервиса</li>
                 <li>Проведение акций</li>
@@ -37,7 +43,7 @@
                 </ul>
             </div>
             <div class="block2__images">
-                <img src="/images/social/muse.logo2.jpg" alt="muse.logo2" srcset="">
+                <img src="/images/about/motivation2.jpg" alt="muse.logo2" srcset="">
             </div>
         </div>
     </section>

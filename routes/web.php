@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 
 /*
@@ -13,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes(['register' => false]);
 Route::get('/', 'MainController@index');
 Route::post('/', 'MainController@store');
 Route::get('/about', 'MainController@about');
-Route::get('/contact', 'MainController@contact');
+Route::get('/contact', 'MainController@contact')->middleware('auth');
 
 // румбоксы
 Route::get('/rumbox', 'MainController@rumbox'); //all
@@ -55,3 +56,7 @@ Route::get('/embroidery_40x40/{product_id}', 'ProductController@showEmbroidery_4
 // выщивка крестиком 40х50
 Route::get('/embroidery_40x50', 'MainController@embroidery_40x50');// all
 Route::get('/embroidery_40x50/{product_id}', 'ProductController@showEmbroidery_40x50') -> name('showCard11');// cart item
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
