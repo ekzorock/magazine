@@ -3,11 +3,13 @@
 @section('content')
     <h2>админка</h2>
    
-    <ul class="container__itemList">
-        @foreach($check as $checks)
-            <li>{{$checks->article_check}}</li>
-           
-        
+    
+        @foreach($massFinish as $rtrs)
+        <ul class="chechksList">
+            @foreach($rtrs as $key=>$value)
+                    <li>{{$key}}</li><li>{{$value}}</li>
+            @endforeach
+            </ul>
         @endforeach
-    </ul>
+  
 @endsection

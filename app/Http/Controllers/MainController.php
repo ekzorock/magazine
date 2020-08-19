@@ -22,27 +22,21 @@ class MainController extends Controller
     }
 
     public function admin (){
-        $check = \App\Checkout::all();
-        // $check = json_decode($check);
-        // $check = (array) $check;
-        // // $check = json_decode($check);
-        // // $check = $check;
-        // echo gettype($check);
-        // var_dump($check);
-        $i = 0;
-        $check = json_decode($check);
-        for($x = 0;$x<= count($check); $x++){
-            foreach ($check[$i] as $key => $value) {
-                $i++;
-                print "$key => $value\n <br> $i" ;
-                $check = array();
-                $check[$i] = $value;
-            }
-        }     
-        echo count($check);
+        $check2 = \App\Checkout::select('article_check')-> get();
+        $ww = count($check2) - 1;
+        $massi = array();
+        for($z = 0; $z <= $ww; $z++){
+            array_push($massi, $check2[$z]['article_check']);
+        }
+        $mass = array();
+        foreach($massi as $key =>$value){
+            $value =  json_decode($value);
+            array_push($mass, $value );
+        }
+        $massFinish = array_reverse($mass);
         
-        return view('adminpanel', compact('check'));
-    }
+            return view('adminpanel', compact('massFinish'));
+        }
 
    
     public function rumbox(){
