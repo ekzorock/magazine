@@ -52,6 +52,8 @@ document.querySelector('.shop_cart-cart').addEventListener("click", () => {
     let popup = document.getElementById("myPopup");
     popup.classList.remove("ofshow");
     popup.classList.toggle("show");
+    let shop_cart = document.querySelector('.shop_cart-cart');
+    shop_cart.classList.toggle("displayNone");
     
 })
 
@@ -194,7 +196,12 @@ document.querySelector('.closeBascet').addEventListener('click',()=>{
 
 // событие по нажатию на кнопку Оформить заказ
 document.querySelector('.checkout').addEventListener('click',()=>{
-    console.log('buy');
+    let check = document.querySelector('.formMail');
+    check.classList.toggle("displayOn");
+    let checkOff = document.querySelector('.button-buy-full');
+    checkOff.classList.remove("displayOn");
+    checkOff.classList.toggle("displayNone");
+    
 })
 
 

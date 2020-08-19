@@ -16,7 +16,7 @@ class CreateCheckoutsTable extends Migration
         Schema::create('checkouts', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('article_check');// 
+            $table->text('article_check');// 
             // $table->integer('count_check');// количество 
             // $table->string('delivery_check');// тип доставки
             // $table->string('name_check');// имя

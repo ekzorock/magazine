@@ -525,11 +525,18 @@ footer{
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-/* добавляет  этот класс при нажати , делает корзину видимой */
+/* добавляет  этот класс при нажати , делает корзину не видимой */
 .popup .ofshow {
     visibility: hidden;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+}
+// скрывает корзину при нажатии
+.displayNone{
+    display: none;
+}
+.displayOn{
+    display: block;
 }
 /* адаптив всплывающего окна корзины */
 @-webkit-keyframes fadeIn {
@@ -680,50 +687,7 @@ footer{
         }
     }
   }
-// страница ПРО НАС
-.description_magazine{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-        .block1{
-            .block1__text{
-                h2{
-                    text-align: center;
-                    font-size: 25px;
-                    font-weight: bold;
-                    font-family: 'Montserrat', sans-serif;
-                }
-                p{
-                    text-align: center;
-                    font-size: 20px;
-                }
-            }
-            .block1__images{
-                img{
-                    max-height: 500px;
-                }
-            }
-        }   
-        .block2{
-            .block2__text{
-                h2{
-                    text-align: center;
-                    font-size: 25px;
-                    font-weight: bold;
-                    font-family: 'Montserrat', sans-serif;
-                }
-                li{
-                    font-size: 20px;
-                }
-            }
-            .block2__images{
-                img{
-                    max-height: 500px;
-                }
-            }
-        } 
-}
+
 .show1{
     display: none;
     opacity: 0;
@@ -739,3 +703,115 @@ footer{
         border-bottom: 1px solid black;
     }
 }
+
+
+// Меню доставки
+.formMail{
+    
+    
+    .delivery{
+        padding: 5px;
+        margin-top: 10px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        .deliText{
+            padding: 5px;
+        }
+        .checks{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 10px;
+        }
+    }
+    .contactForm{
+        input{
+            border-radius: 1px;
+            padding: 4px;
+            border-radius: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
+        }
+        textarea{
+             
+            border-radius: 1px;
+            padding: 10px;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
+        }
+        .row {
+            display: block;
+            padding: 7px 8px;
+            margin-bottom: 7px;
+            &:hover {
+                background: #f1f7fa;
+                }
+            }
+            label {
+                display: inline-block;
+                font-size: 1.2em;
+                font-weight: bold;
+                width: 140px;
+                padding: 6px 0;
+                color: #464646;
+                vertical-align: top;
+            }
+            .req { color: #ca5354; }
+            .note {
+                font-size: 1.2em;
+                line-height: 1.33em;
+                font-weight: normal;
+                padding: 2px 7px;
+                margin-bottom: 10px;
+            }
+            input:focus, form textarea:focus { 
+                outline: none; 
+            }
+            .txt {
+                display: inline-block;
+                padding: 8px 9px;
+                max-width: 250px;
+                font-family: 'Oxygen', sans-serif;
+                font-size: 1.35em;
+                font-weight: normal;
+                color: #898989;
+                }
+            .contactForm__goCheck{
+                    input{
+                            text-decoration: none;
+                            outline: none;
+                            display: inline-block;
+                            width: 250px;
+                            height: 45px;
+                            // line-height: 45px;
+                            border-radius: 45px;
+                            margin: 10px 20px;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 11px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            letter-spacing: 3px;
+                            font-weight: 600;
+                            color: #524f4e;
+                            background: rgba(212, 48, 177, 0.452);
+                            box-shadow: 0 8px 15px rgba(0,0,0,.1);
+                            transition: .3s;
+                            &:hover {
+                                background: rgb(238,174,202);
+                                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+                                box-shadow: 0 15px 20px rgba(121, 54, 209, 0.452);
+                                color: white;
+                                transform: translateY(-7px);
+                              }
+                    }
+                }  
+    }
+}
+
+
+.closeBascet{
+    margin-top: 15px;
+}
+
+

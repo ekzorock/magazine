@@ -5,12 +5,9 @@
             <h2>Помощь</h2>
         </p>
         <ul class="footСontainer-helpList">
-            <li><a href="">Политика конфеденциальности</a></li>
-            <li><a href="">Пользовательское соглашение</a></li>
             <li><a href="">Публичная оферта</a></li>
             <li><a href="">Условия возврата</a></li>
             <li><a href="">Оплата</a></li>
-            <li><a href="">Отзывы</a></li>
             <li><a href="">Доставка</a></li>
             <li><a href="">Контакты</a></li>
         </ul>

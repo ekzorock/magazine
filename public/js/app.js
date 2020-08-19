@@ -49766,6 +49766,8 @@ document.querySelector('.shop_cart-cart').addEventListener("click", function () 
   var popup = document.getElementById("myPopup");
   popup.classList.remove("ofshow");
   popup.classList.toggle("show");
+  var shop_cart = document.querySelector('.shop_cart-cart');
+  shop_cart.classList.toggle("displayNone");
 }); // добавляем товар в корзину
 
 document.onclick = function (event) {
@@ -49911,7 +49913,11 @@ document.querySelector('.closeBascet').addEventListener('click', function () {
 }); // событие по нажатию на кнопку Оформить заказ
 
 document.querySelector('.checkout').addEventListener('click', function () {
-  console.log('buy');
+  var check = document.querySelector('.formMail');
+  check.classList.toggle("displayOn");
+  var checkOff = document.querySelector('.button-buy-full');
+  checkOff.classList.remove("displayOn");
+  checkOff.classList.toggle("displayNone");
 }); // галерея в карточке товара
 
 thumbs.onclick = function (event) {
@@ -50042,6 +50048,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/about.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/about.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -50054,14 +50071,15 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!*****************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/about.scss ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\OSPanel\domains\magazine\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\sass\about.scss */"./resources/sass/about.scss");
 
 
 /***/ })
