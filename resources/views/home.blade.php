@@ -6,7 +6,6 @@
 @endsection
 
 @section('content')
-    <!-- вместо слайдера -->
     <section>
         <div class="slider_container">
             <div class="slider_home">
@@ -17,18 +16,7 @@
             </div>
         </div>
     </section>
-    <!-- Приветствие -->
-    <!-- <section class="hello">
-        <article>
-            <div>
-                <h2>Добро пожаловать к нам на сайт!</h2>
-            </div>
-            <div>
-                <p>У нас вы найдете большой ассортимент для реализации ваших творческих наклонностей</p>
-            </div>
-
-        </article>
-    </section> -->
+ 
     <!-- Менюшки с закругленными углами -->
     <section>
         <div class="homeMenu">

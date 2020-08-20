@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media all and (max-width: 1300px) {
+  .slider_container .slider_home {
+    max-height: 225px;
+    max-width: 1000px;
+  }
+
+  .slider_container .slider_home .quote {
+    font-size: 20px;
+    text-align: center;
+    color: #5c4750;
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .footСontainer-contacts {
+    display: none;
+  }
+
+  .footСontainer-help {
+    display: none;
+  }
+
+  .footСontainer-helpList {
+    display: none;
+  }
+
+  .slider_container .slider_home {
+    width: 396px;
+    max-height: 95px;
+  }
+
+  .slider_container .slider_home .quote {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding: 1px;
+  }
+
+  .navigate {
+    display: none;
+  }
+}
+
+/* адаптив всплывающего окна корзины */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+

@@ -18,6 +18,7 @@ Route::get('/', 'MainController@index');
 Route::post('/', 'MainController@store');
 Route::get('/about', 'MainController@about');
 Route::get('/contact', 'MainController@contact');
+Route::get('/delivery','MainController@delivery');
 Route::get('/adminpanel', 'MainController@admin')->middleware('auth');
 
 // румбоксы
@@ -53,7 +54,7 @@ Route::get('/mosaic3d_40x50/{product_id}', 'ProductController@showMosaic3d_40x50
 // выщивка крестиком 40х40
 Route::get('/embroidery_40x40', 'MainController@embroidery_40x40');// all
 Route::get('/embroidery_40x40/{product_id}', 'ProductController@showEmbroidery_40x40') -> name('showCard10');// cart item
-// выщивка крестиком 40х50
+// вышивка крестиком 40х50
 Route::get('/embroidery_40x50', 'MainController@embroidery_40x50');// all
 Route::get('/embroidery_40x50/{product_id}', 'ProductController@showEmbroidery_40x50') -> name('showCard11');// cart item
 

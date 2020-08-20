@@ -20,6 +20,9 @@ class MainController extends Controller
     public function contact (){
         return view('contact');
     }
+    public function delivery (){
+        return view('delivery');
+    }
 
     public function admin (){
         $check2 = \App\Checkout::select('article_check')-> get();

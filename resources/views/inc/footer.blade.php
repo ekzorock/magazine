@@ -5,11 +5,11 @@
             <h2>Помощь</h2>
         </p>
         <ul class="footСontainer-helpList">
-            <li><a href="">Публичная оферта</a></li>
-            <li><a href="">Условия возврата</a></li>
-            <li><a href="">Оплата</a></li>
-            <li><a href="">Доставка</a></li>
-            <li><a href="">Контакты</a></li>
+            <li><a href="#">Публичная оферта</a></li>
+            <li><a href="/delivery">Условия возврата</a></li>
+            <li><a href="/delivery">Оплата</a></li>
+            <li><a href="/delivery">Доставка</a></li>
+            <li><a href="/contact">Контакты</a></li>
         </ul>
     </div>
     <div class="footСontainer-socialMedia">

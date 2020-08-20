@@ -77,3 +77,171 @@
         } 
 }
 // страница КОНТАКТЫ
+.contact{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+    .contact__block1{
+        p{
+            margin: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+    .contact__block2{
+        display: flex;
+        justify-content: center;
+        margin-bottom:250px;
+        flex-wrap:wrap;
+        li{
+            margin: 10px;
+            font-size: 25px;
+        }
+    }
+}
+// страница Доставка
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1280px;
+    margin: 0 auto;
+    .delivery{
+        padding: 10px;
+        
+        max-width: 350px;
+        margin: 20px;
+        border-radius: 1px;
+            padding: 4px;
+            border-radius: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
+        .delivery__deliText{
+            margin: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+        }
+        .delivery__article{
+            margin-top: 100px;
+            .article_deliState{
+                margin: 20px;
+                text-align: justify;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+            }
+            .delivery_img{
+                text-align: center;
+                margin-top: 70px;
+                img{
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    // ---------------------------------------
+    .payment{
+        padding: 10px;
+        max-width: 350px;
+        margin: 20px;
+        border-radius: 1px;
+            padding: 4px;
+            border-radius: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
+        .payment__Text{
+            margin: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+        }
+        .payment__article{
+            .payment_State{
+                margin: 10px;
+                text-align: left;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+            }
+            .payment_img{
+                text-align: center;
+                img{
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+    // --------------------------------------
+    .return{
+        margin: 20px;
+        border: 2px solid black;
+        max-width: 350px;
+        padding: 4px;
+        border-radius: 5px;
+        border: 1px solid #94bbe9;
+        box-shadow: 1px 1px 1px #999;
+        .return__Text{
+            margin: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+        }
+        .return__article{
+            .return_State{
+                margin: 20px;
+                text-align: left;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+            }
+            .return_back{
+                margin: 20px;
+                text-align: justify;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+            }
+            .return_img{
+                text-align: center;
+                img{
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}
+
+// пагинация
+.pagination{
+    margin-bottom: 15px;
+    li{
+        
+        margin: 0px;
+
+        .page-link{
+            background-color: rgb(136, 136, 136);
+            padding: 5px;
+            border-radius: 3px;
+            color: white;
+            
+            
+        }
+    }
+}
+
+// карточка

@@ -1,12 +1,4 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-@import 'variables';
-
-// Bootstrap
-// @import '~bootstrap/scss/bootstrap';
-//
 *{
 	padding: 0;
 	margin: 0 auto;
@@ -183,11 +175,6 @@ header{
     }
     
 }
-@media all and (max-width: 800px){
-  .navigate{
-      display: none;
-  }
-}
 // стили подвала
 footer{
     border-top: 2px solid black;
@@ -217,7 +204,7 @@ footer{
         
         h2{
             text-align: center;
-            padding: 30px 30px 10px 30px;
+            padding: 15px 15px 10px 15px;
             font-family: 'Fredericka the Great', cursive;
             font-size: 50px;
             color: white;
@@ -241,14 +228,71 @@ footer{
     border: none;
     
       .mainList{
-        border: 2px solid black;
         padding: 15px;
         margin: 15px;
+            border-radius: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
             img{
                 width: 350px;
             }
       }
-    
+    .decriptionItem{
+        text-decoration: none;
+                outline: none;
+                display: inline-block;
+                width: 150px;
+                height: 45px;
+                line-height: 45px;
+                border-radius: 5px;
+                margin: 10px 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 11px;
+                text-transform: uppercase;
+                text-align: center;
+                letter-spacing: 3px;
+                font-weight: 600;
+                color: #524f4e;
+                background: rgba(82, 54, 209, 0.452);
+                box-shadow: 0 8px 15px rgba(0,0,0,.1);
+                transition: .3s;
+                &:hover {
+                    // background: #2EE59D;
+                    background: rgb(238,174,202);
+                    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+                    box-shadow: 0 15px 20px rgba(121, 54, 209, 0.452);
+                    color: white;
+                    transform: translateY(-7px);
+                  }
+    }
+    .basketBut{
+        text-decoration: none;
+                outline: none;
+                display: inline-block;
+                width: 150px;
+                height: 45px;
+                line-height: 45px;
+                border-radius: 5px;
+                margin: 10px 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 11px;
+                text-transform: uppercase;
+                text-align: center;
+                letter-spacing: 3px;
+                font-weight: 600;
+                color: #524f4e;
+                background: rgba(121, 54, 209, 0.452);
+                box-shadow: 0 8px 15px rgba(0,0,0,.1);
+                transition: .3s;
+                &:hover {
+                    // background: #2EE59D;
+                    background: rgb(238,174,202);
+                    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+                    box-shadow: 0 15px 20px rgba(121, 54, 209, 0.452);
+                    color: white;
+                    transform: translateY(-7px);
+                  }
+    }
  }
  //  карточка товара вторичная
 .showList{
@@ -332,7 +376,6 @@ footer{
           }
     }
 }
-
  //  пагинация
 .container-pagination{
     
@@ -497,7 +540,6 @@ footer{
                }
     }
 } 
-
 // положение корзины на сайте
 .popup {
     display: flex;
@@ -538,22 +580,10 @@ footer{
 .displayOn{
     display: block;
 }
-/* адаптив всплывающего окна корзины */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-
 
 .zala{
     max-height: 100px;
 }
-
 // карточки корзины
 .popuptext{
     
@@ -662,32 +692,6 @@ footer{
         }
 }
 
-  @media all and (max-width: 1300px){
-    .slider_container .slider_home{
-        
-        max-height: 225px;
-        max-width: 1000px;
-        .quote{
-            font-size: 20px;
-            text-align: center;
-            color:  rgb(92, 71, 80);
-            padding: 20px;
-        }
-    }
-  }
-  @media all and (max-width: 800px){
-    .slider_container .slider_home{
-        width: 396px;
-        max-height: 95px;
-        .quote{
-            font-size: 15px;
-            text-align: center;
-            color:  black;
-            padding: 1px;
-        }
-    }
-  }
-
 .show1{
     display: none;
     opacity: 0;
@@ -703,8 +707,6 @@ footer{
         border-bottom: 1px solid black;
     }
 }
-
-
 // Меню доставки
 .formMail{
     
@@ -808,8 +810,6 @@ footer{
                 }  
     }
 }
-
-
 .closeBascet{
     margin-top: 15px;
 }
