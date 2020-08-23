@@ -57,6 +57,9 @@ Route::get('/embroidery_40x40/{product_id}', 'ProductController@showEmbroidery_4
 // вышивка крестиком 40х50
 Route::get('/embroidery_40x50', 'MainController@embroidery_40x50');// all
 Route::get('/embroidery_40x50/{product_id}', 'ProductController@showEmbroidery_40x50') -> name('showCard11');// cart item
+// аксессуары
+Route::get('/accessories', 'MainController@accessories');// all
+Route::get('/showAccessories/{product_id}', 'ProductController@showAccessories') -> name('showCard12');// cart item
 
 Auth::routes();
 

@@ -284,9 +284,15 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   border: none;
 }
 
+.container__itemList .buttonCart {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container__itemList .mainList {
   padding: 15px;
   margin: 15px;
+  max-width: 400px;
   border-radius: 5px;
   border: 1px solid #94bbe9;
   box-shadow: 1px 1px 1px #999;
@@ -294,6 +300,18 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
 
 .container__itemList .mainList img {
   width: 350px;
+}
+
+.container__itemList .mainList div h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #94bbe9;
+  box-shadow: 1px 1px 1px #999;
+  text-align: justify;
+}
+
+.container__itemList .mainList h2.price {
+  font-size: 20px;
 }
 
 .container__itemList .decriptionItem {
@@ -304,7 +322,7 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  margin: 10px 20px;
+  margin: 10px 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
@@ -333,7 +351,7 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  margin: 10px 20px;
+  margin: 10px 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
@@ -361,6 +379,21 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   margin: 20px;
   border-radius: 15px;
   border: 2px solid #94bbe9;
+}
+
+.showList .container__desc {
+  background-color: white;
+}
+
+.showList .container__desc h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #94bbe9;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.showList .container__desc h2.price {
+  font-size: 20px;
 }
 
 .showList .buttonCart {
@@ -650,6 +683,10 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   max-height: 100px;
 }
 
+.popuptext .fullPrice {
+  font-size: 20px;
+}
+
 .popuptext .bascetCartRend {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -665,7 +702,7 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
 .popuptext .bascetCartRend img {
   max-height: 100px;
   padding-left: 10px;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .popuptext .bascetCartRend .butMinus {
@@ -884,5 +921,14 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
 
 .closeBascet {
   margin-top: 15px;
+}
+
+.popular_category {
+  margin-top: 20px;
+}
+
+.popular_category h2 {
+  text-align: center;
+  font-size: 30px;
 }
 

@@ -16,7 +16,13 @@
             </div>
         </div>
     </section>
- 
+ <section>
+     <div class="popular_category">
+         <div>
+             <h2>Популярные категории</h2>
+         </div>
+     </div>
+ </section>
     <!-- Менюшки с закругленными углами -->
     <section>
         <div class="homeMenu">
@@ -25,7 +31,7 @@
                 <div class="butHome">
                     <div class="buthome-button">
                         <div>
-                            <a href="">Перейти</a>
+                            <a href="/paint_number40x50">Перейти</a>
                         </div>
                     </div>
                 </div>
@@ -36,25 +42,23 @@
                 <div class="butHome">
                     <div class="buthome-button">
                         <div>
-                            <a href="">Перейти</a>
+                            <a href="/diamond_sircle_40x50">Перейти</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="homeMenu-list3">
                 <div class="text">Вышивка</div>
-                <!-- <img src="/images/homeMenu/krestik.jpg"> -->
                 <div class="butHome">
                     <div class="buthome-button">
                         <div>
-                            <a href="">Перейти</a>
+                            <a href="/embroidery_40x50">Перейти</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="homeMenu-list4">
                 <div class="text">Румбоксы</div>
-                <!-- <img src="/images/homeMenu/rumbox.jpg"> -->
                 <div class="butHome">
                     <div class="buthome-button">
                         <div>

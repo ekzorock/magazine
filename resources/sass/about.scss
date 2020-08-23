@@ -14,6 +14,7 @@
         .block1{
             max-height: 300px;
             display: flex;
+            // flex-wrap: wrap;
             border-radius: 1px;
             padding: 4px;
             border-radius: 5px;
@@ -43,6 +44,7 @@
         .block2{
             max-height: 300px;
             display: flex;
+            flex-wrap: wrap;
             border-radius: 1px;
             padding: 4px;
             border-radius: 5px;
@@ -245,3 +247,33 @@
 }
 
 // карточка
+
+
+@media all and (max-width: 1300px){
+    .description_magazine{
+        margin: 5px;
+        .block1{
+            flex-wrap: wrap;
+            max-height: 100%;
+            .block1__text p{
+                font-size: 20px; 
+            }
+        }
+        .block2{
+            max-height: 100%;
+            .block2__text{
+                ul{
+                    li{
+                        font-size: 20px;
+                        margin-left: 20px;
+                    } 
+                }
+            }
+            .block2__images{
+                img{
+                    height: 170px;
+                }
+            }
+        }
+    }
+}

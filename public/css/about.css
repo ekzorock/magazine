@@ -44,6 +44,7 @@
 .description_magazine .block2 {
   max-height: 300px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 1px;
   padding: 4px;
   border-radius: 5px;
@@ -244,5 +245,33 @@
   padding: 5px;
   border-radius: 3px;
   color: white;
+}
+
+@media all and (max-width: 1300px) {
+  .description_magazine {
+    margin: 5px;
+  }
+
+  .description_magazine .block1 {
+    flex-wrap: wrap;
+    max-height: 100%;
+  }
+
+  .description_magazine .block1 .block1__text p {
+    font-size: 20px;
+  }
+
+  .description_magazine .block2 {
+    max-height: 100%;
+  }
+
+  .description_magazine .block2 .block2__text ul li {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .description_magazine .block2 .block2__images img {
+    height: 170px;
+  }
 }
 

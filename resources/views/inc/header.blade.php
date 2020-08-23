@@ -13,7 +13,7 @@
                 <form method="post" action="/">
                 {{ csrf_field() }}
                         <div class="bascetCart"></div>
-                        <div class="fullPrice">Всего:</div>
+                        <div class="fullPrice"><p>Всего:</p></div>
                         <div class="button-buy checkout">
                                 <div class="button-buy-full displayOn"><a href="#">Оформить заказ</a></div>
                         </div>
@@ -53,7 +53,7 @@
                                                 <label for="message">Адрес доставки <span class="req">*</span></label>
                                                 <textarea name="adres" id="message" class="txtarea" cols="33" tabindex="6" required></textarea>
                                                 </div>
-                                                <div class="contactForm__goCheck "><input type="submit" value ="Заказать"></div>
+                                                <div class="contactForm__goCheck clearStorage"><input class="clearStorage" type="submit" value ="Заказать"></div>
                                         </div>
                                 
                         </div>

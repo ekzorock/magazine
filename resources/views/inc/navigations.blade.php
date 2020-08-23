@@ -7,6 +7,7 @@
                     <li class="submenu"><a class="submenu" href="/paint_number30x40">Картины 30х40</a></li>
                     <li class="submenu"><a class="submenu" href="/paint_number40x50">Картины 40х50</a></li>
                     <li class="submenu"><a class="submenu" href="/trip_number40x50">Триптихи 40x50</a></li>
+                    <li class="submenu"><a class="submenu" href="/trip_number40x50">Картины по дереву</a></li>
                 </ul>
             </li>
             <li class="submenu2"><a class="submenu2" href="#">Алмазная мозайка</a>
@@ -26,6 +27,7 @@
                 </ul>
             </li>
             <li><a href="/rumbox">Румбоксы</a></li>
+            <li><a href="/accessories">Аксессуары</a></li>
             <li><a href="/delivery">Доставка</a></li>
             <li><a href="/about">О нас</a></li>
             <li><a href="/contact">Контакты</a></li>

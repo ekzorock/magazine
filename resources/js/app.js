@@ -4,9 +4,10 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('./bootstrap');
 
 window.Vue = require('vue');
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -27,9 +28,10 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app',
-});
+// const app = new Vue({
+//     el: '#app',
+// });
+
 
 // навигация
 function www (x, y){
@@ -54,7 +56,16 @@ document.querySelector('.shop_cart-cart').addEventListener("click", () => {
     popup.classList.toggle("show");
     let shop_cart = document.querySelector('.shop_cart-cart');
     shop_cart.classList.toggle("displayNone");
-    
+    //   Удаление из Локалки после заказа
+    document.querySelector('.clearStorage').addEventListener('click',()=>{
+        let textarea = document.querySelector('.txtarea');
+        if(textarea.value != ""){
+            localStorage.clear();
+        }
+        
+        // if()
+        // localStorage.clear();
+    })
 })
 
 // добавляем товар в корзину
@@ -156,7 +167,7 @@ function fullPriceFunc (){
     for(let key in localMuse){
         dummi += localMuse[key].count * localMuse[key].price;
     }
-    fullPrice.innerHTML = "Всего: " + dummi;
+    fullPrice.innerHTML = "Всего: " + dummi + " руб.";
 }
 
 // удаление объекта
@@ -218,3 +229,6 @@ thumbs.onclick = function(event) {
     largeImg.src = href;
     largeImg.alt = title;
   }
+
+
+// let localMuse = JSON.parse(localStorage.getItem("muse"));

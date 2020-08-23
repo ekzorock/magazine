@@ -91,6 +91,10 @@ class MainController extends Controller
         $projects = \App\Embroidery_40x50::paginate(9); //пагинация
         return view('navi_category/embroidery_40x50', compact('projects'));
     }
+    public function accessories(){
+        $projects = \App\Accessory::paginate(9); //пагинация
+        return view('navi_category/accessories', compact('projects'));
+    }
     
     
    

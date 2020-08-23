@@ -54,5 +54,9 @@ class ProductController extends Controller
         $item = \App\Embroidery_40x50::where('id_embroidery_40x50', $product_id) -> first();
         return view('showCard.showEmbroidery_40x50',['item' => $item]);
     }
+    public function showAccessories($product_id){
+        $item = \App\Accessory::where('id_accessories', $product_id) -> first();
+        return view('showCard.showAccessories',['item' => $item]);
+    }
     
 }

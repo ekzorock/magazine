@@ -226,15 +226,30 @@ footer{
     margin: 0 auto;
     flex-wrap:wrap;
     border: none;
+    .buttonCart{
+        display: flex;
+        justify-content: space-between;
+    }
     
       .mainList{
         padding: 15px;
         margin: 15px;
+        max-width: 400px;
             border-radius: 5px;
             border: 1px solid #94bbe9;
             box-shadow: 1px 1px 1px #999;
             img{
                 width: 350px;
+            }
+            div h2{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: 1px solid #94bbe9;
+                box-shadow: 1px 1px 1px #999;
+                text-align: justify;
+            }
+            h2.price{
+                font-size: 20px;
             }
       }
     .decriptionItem{
@@ -245,7 +260,7 @@ footer{
                 height: 45px;
                 line-height: 45px;
                 border-radius: 5px;
-                margin: 10px 20px;
+                margin: 10px 10px;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 11px;
                 text-transform: uppercase;
@@ -273,7 +288,7 @@ footer{
                 height: 45px;
                 line-height: 45px;
                 border-radius: 5px;
-                margin: 10px 20px;
+                margin: 10px 10px;
                 font-family: 'Montserrat', sans-serif;
                 font-size: 11px;
                 text-transform: uppercase;
@@ -302,6 +317,19 @@ footer{
     margin: 20px;
     border-radius: 15px;
     border: 2px solid rgba(148,187,233,1);
+    .container__desc{
+        background-color: white;
+        h2{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 1px solid #94bbe9;
+            box-shadow: 1px 1px 1px #999;
+            
+        }
+        h2.price{
+            font-size: 20px;
+        }
+    }
     // кнопка заказа
     .buttonCart{
         display: flex;
@@ -586,7 +614,11 @@ footer{
 }
 // карточки корзины
 .popuptext{
-    
+    .fullPrice{
+        
+            font-size: 20px;
+        
+    }
    .bascetCartRend{
        padding-top: 5px;
        padding-bottom: 5px;
@@ -600,7 +632,7 @@ footer{
        img{
            max-height: 100px;
            padding-left: 10px;
-           padding-right: 50px;
+           padding-right: 10px;
        }
       .butMinus{
           padding-left: 10px;
@@ -709,8 +741,6 @@ footer{
 }
 // Меню доставки
 .formMail{
-    
-    
     .delivery{
         padding: 5px;
         margin-top: 10px;
@@ -814,4 +844,12 @@ footer{
     margin-top: 15px;
 }
 
+.popular_category{
+    margin-top: 20px;
+    h2{
+        text-align: center;
+        font-size: 30px;
+
+    }
+}
 

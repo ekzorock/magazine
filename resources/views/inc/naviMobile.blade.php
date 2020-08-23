@@ -1,14 +1,14 @@
 
 
     <nav class="dws-menu">
-        <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
-        <label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Меню</label>
+        <input type="checkbox" name="toggle" id="menu" class="toggleMenu ">
+        <label for="menu" class="toggleMenu simbol"><i class="fa fa-bars "></i>Меню</label>
         <ul>
-            <li><a href="/"><i class="fa fa-home"></i>На главную</a></li>
+            <li><a href="/"><i class="fa fa-home "></i>На главную</a></li>
             <li>
                 <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1">
-                <a href="#"><i class="fa fa-shopping-cart"></i>Каталог</a>
-                <label for="sub_m1" class="toggleSubmenu"><i class="fa"></i></label>
+                <a href="#"><i class="fa fa-shopping-cart"></i><p class="upper">Каталог</p></a>
+                <label for="sub_m1" class="toggleSubmenu "><i class="fa"></i></label>
                 <ul>
                     <!-- картины по номерам -->
                     <li>
@@ -19,6 +19,7 @@
                             <li><a href="/paint_number30x40">Картины 30х40</a></li>
                             <li><a href="/paint_number40x50">Картины 40х50</a></li>
                             <li><a href="/trip_number40x50">Триптихи 40х50</a></li>
+                            <li><a href="#">Картины по дереву</a></li>
                         </ul>
                     </li>
                     <!-- Алмазная мозайка -->
@@ -52,6 +53,15 @@
                         <label for="sub_m1-4" class="toggleSubmenu"><i class="fa"></i></label>
                         <ul>
                             <li><a href="/rumbox">Румбоксы 40х50</a></li>
+                        </ul>
+                    </li>
+                     <!-- Аксессуары -->
+                     <li>
+                        <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1-5">
+                        <a href="#">Аксессуары</a>
+                        <label for="sub_m1-5" class="toggleSubmenu"><i class="fa"></i></label>
+                        <ul>
+                            <li><a href="/accessories">Аксессуары</a></li>
                         </ul>
                     </li>
                     <!-- <li>

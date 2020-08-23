@@ -1,6 +1,18 @@
 @charset "UTF-8";
 
 @media all and (max-width: 1300px) {
+  .navigate {
+    display: none;
+  }
+
+  .popup .popuptext {
+    max-width: 800px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
   .slider_container .slider_home {
     max-height: 225px;
     max-width: 1000px;
@@ -12,9 +24,92 @@
     color: #5c4750;
     padding: 20px;
   }
+
+  header .shop_cart {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+  }
 }
 
 @media all and (max-width: 800px) {
+  .popup .popuptext {
+    max-width: 700px;
+  }
+
+  .popup .popuptext img {
+    padding: 0px;
+  }
+
+  .bascetCart .bascetCartRend {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .bascetCart .bascetCartRend .bascetCart-article {
+    display: none;
+  }
+
+  .bascetCart .bascetCartRend .bascetCart-img {
+    margin: 0px;
+  }
+
+  .bascetCart .bascetCartRend .bascetCart-name {
+    margin: 0px;
+  }
+
+  .bascetCart .bascetCartRend .bascetCart-count {
+    margin: 0px;
+  }
+
+  .bascetCart .bascetCartRend .bascetCart-price {
+    margin: 0px;
+  }
+
+  .dws-menu label.toggleMenu {
+    position: static;
+  }
+
+  header .shop_cart .shop_cart-cart {
+    padding: 14px;
+  }
+
+  .homeMenu .homeMenu-list1,
+  .homeMenu .homeMenu-list2,
+  .homeMenu .homeMenu-list3,
+  .homeMenu .homeMenu-list4,
+  .homeMenu .homeMenu-list5,
+  .homeMenu .homeMenu-list6 {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 190px;
+  }
+
+  .homeMenu .homeMenu-list1 .butHome,
+  .homeMenu .homeMenu-list2 .butHome,
+  .homeMenu .homeMenu-list3 .butHome,
+  .homeMenu .homeMenu-list4 .butHome,
+  .homeMenu .homeMenu-list5 .butHome,
+  .homeMenu .homeMenu-list6 .butHome {
+    padding-top: 80px;
+  }
+
+  .showList .imgGalery #thumbs li img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  .showList {
+    padding: 0px;
+    margin: 2px;
+    max-width: 375px;
+  }
+
+  .imgGalery p {
+    width: 250px;
+  }
+
   .footСontainer-contacts {
     display: none;
   }
@@ -28,7 +123,7 @@
   }
 
   .slider_container .slider_home {
-    width: 396px;
+    max-width: 400px;
     max-height: 95px;
   }
 
