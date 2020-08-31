@@ -51,7 +51,7 @@ class MainController extends Controller
         return view('navi_category/paint_number30x40', compact('projects'));
     }
     public function paint_number40x50(){
-        $projects = \App\Paint_number_40x50::paginate(9); //пагинация
+        $projects = \App\Paint_number_40x50::paginate(12); //пагинация
         return view('navi_category/paint_number40x50', compact('projects'));
     }
     

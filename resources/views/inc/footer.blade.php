@@ -5,7 +5,7 @@
             <h2>Помощь</h2>
         </p>
         <ul class="footСontainer-helpList">
-            <li><a href="#">Публичная оферта</a></li>
+            <!-- <li><a href="#">Публичная оферта</a></li> -->
             <li><a href="/delivery">Условия возврата</a></li>
             <li><a href="/delivery">Оплата</a></li>
             <li><a href="/delivery">Доставка</a></li>
@@ -35,7 +35,6 @@
             <li>Интернет магазин "Муза"</li>
             <li>+7 (995) 789-26-19</li>
             <li>Почта: musepictures@mail.ru</li>
-            <li>ИНН:56451254654</li>
         </ul>
     </div>
 </div>

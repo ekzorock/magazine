@@ -12850,8 +12850,10 @@ document.onclick = function (event) {
         //перебираем список товаров на странице
         if (_www[i].id == itemCart) {
           // если id в списке такое же как id по которому кликнули
-          // console.log(www['0']);
+          console.log(_www['0']);
           objec[_www[i].dataset.article] = {
+            "id": _www[i].dataset.id,
+            "category": _www[i].dataset.category,
             "article": _www[i].dataset.article,
             "name": _www[i].dataset.name,
             "img": _www[i].dataset.img,
@@ -12870,6 +12872,8 @@ document.onclick = function (event) {
       for (var _i = 0; _i < _www.length; _i++) {
         if (_www[_i].id == itemCart) {
           _objec[_www[_i].dataset.article] = {
+            "id": _www[_i].dataset.id,
+            "category": _www[_i].dataset.category,
             "article": _www[_i].dataset.article,
             "name": _www[_i].dataset.name,
             "img": _www[_i].dataset.img,
@@ -12893,7 +12897,7 @@ document.querySelector('.shop_cart-cart').addEventListener("click", function ren
   var localMuse = JSON.parse(localStorage.getItem("muse"));
 
   for (var key in localMuse) {
-    cartImg.innerHTML += "<div class=\"bascetCartRend\">\n                <div class=\"bascetCart-article\">\u0410\u0440\u0442\u0438\u043A\u0443\u043B:".concat(localMuse[key].article, "</div>\n                <div class=\"bascetCart-img\"><img src=\"").concat(localMuse[key].img, "\" alt=\"img\" srcset=\"\"></div>\n                <div class=\"bascetCart-name\">").concat(localMuse[key].name, "</div>\n                <div><button class=\"butMinus\" data-minus=\"").concat(localMuse[key].article, "\">-</button></div>\n                <div class=\"bascetCart-count\"><input name=\"").concat(localMuse[key].article, "\" value=\"").concat(localMuse[key].count, "\"> </div>\n                <div><button class=\"butPlus\" data-plus=\"").concat(localMuse[key].article, "\">+</button></div>\n                <div class=\"bascetCart-price\">\u0426\u0435\u043D\u0430: ").concat(localMuse[key].price * localMuse[key].count, "</div> \n            </div>");
+    cartImg.innerHTML += "<div class=\"bascetCartRend\">\n                <div class=\"bascetCart-article\">\u0410\u0440\u0442:".concat(localMuse[key].article, "</div>\n                <div class=\"bascetCart-img\"><img src=\"").concat(localMuse[key].img, "\" alt=\"img\" srcset=\"\"></div>\n                <div class=\"bascetCart-name\"><a href=\"http://127.0.0.1:8000/").concat(localMuse[key].category, "/").concat(localMuse[key].id, "\">").concat(localMuse[key].name, "</a></div>\n                <div><button class=\"butMinus\" data-minus=\"").concat(localMuse[key].article, "\">-</button></div>\n                <div class=\"bascetCart-count\"><input name=\"").concat(localMuse[key].article, "\" value=\"").concat(localMuse[key].count, "\"> </div>\n                <div><button class=\"butPlus\" data-plus=\"").concat(localMuse[key].article, "\">+</button></div>\n                <div class=\"bascetCart-price\">\u0426\u0435\u043D\u0430: ").concat(localMuse[key].price * localMuse[key].count, "</div> \n            </div>");
   }
 
   fullPriceFunc(); // рендерим сумму ВСЕГО
@@ -12995,6 +12999,9 @@ function showThumbnail(href, title) {
   largeImg.src = href;
   largeImg.alt = title;
 } // let localMuse = JSON.parse(localStorage.getItem("muse"));
+
+
+console.log('asdasd');
 
 /***/ }),
 

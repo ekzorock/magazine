@@ -296,10 +296,12 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   border-radius: 5px;
   border: 1px solid #94bbe9;
   box-shadow: 1px 1px 1px #999;
+  text-align: center;
 }
 
 .container__itemList .mainList img {
-  width: 350px;
+  height: 350px;
+  max-width: 350px;
 }
 
 .container__itemList .mainList div h2 {
@@ -370,6 +372,11 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
   box-shadow: 0 15px 20px rgba(121, 54, 209, 0.452);
   color: white;
   transform: translateY(-7px);
+}
+
+.trip .mainList img {
+  height: 200px;
+  max-width: 350px;
 }
 
 .showList {
@@ -478,6 +485,11 @@ footer .footСontainer-socialMedia .footСontainer-socialList li {
 
 .container-pagination .pagination li {
   padding: 10px;
+}
+
+.container-pagination .pagination .active .page-link {
+  background-color: #94bbe9;
+  border: 1px solid rosybrown;
 }
 
 .homeMenu {

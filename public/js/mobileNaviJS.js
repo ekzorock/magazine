@@ -93,7 +93,9 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+document.querySelector('.toggleSubmenu').onclick = function () {
+  console.log('aadasd');
+};
 
 /***/ }),
 

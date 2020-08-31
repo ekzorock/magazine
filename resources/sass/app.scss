@@ -238,8 +238,10 @@ footer{
             border-radius: 5px;
             border: 1px solid #94bbe9;
             box-shadow: 1px 1px 1px #999;
+            text-align: center;
             img{
-                width: 350px;
+                height: 350px;
+                max-width: 350px;
             }
             div h2{
                 padding-top: 5px;
@@ -307,6 +309,15 @@ footer{
                     color: white;
                     transform: translateY(-7px);
                   }
+    }
+ }
+
+ .trip{
+    .mainList{
+        img{
+            height: 200px;
+            max-width: 350px;
+        }
     }
  }
  //  карточка товара вторичная
@@ -412,6 +423,13 @@ footer{
         justify-content: center;
         li{
             padding: 10px;
+           
+        }
+        .active{ 
+            .page-link{
+                background-color: rgba(148,187,233,1);
+                border: 1px solid rosybrown;
+            }
         }
     }
     

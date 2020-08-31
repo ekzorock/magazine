@@ -14,15 +14,18 @@
                             <a href="{{ $item ->image1_paint_number_40x50 }}" title="Image 2"><img src="{{ $item ->image1_paint_number_40x50 }}"></a>
                             </li>
                             <li>
-                            <a href="{{ $item ->image1_paint_number_40x50 }}" title="Image 3"><img src="{{ $item ->image2_paint_number_40x50 }}"></a>
+                            <a href="{{ $item ->image2_paint_number_40x50 }}" title="Image 3"><img src="{{ $item ->image2_paint_number_40x50 }}"></a>
                             </li>
                         </ul>
                 </div>
                 <div class="container__desc">
                     <h2 class="desc">Название: {{ $item ->name_paint_number_40x50 }}</h2>
                     <h2>Артикул: {{ $item ->article_paint_number_40x50 }}</h2>
-                    <h2>id: {{ $item ->id_paint_number_40x50 }}</h2>
+                    <!-- <h2>id: {{ $item ->id_paint_number_40x50 }}</h2> -->
+                    <h2>Бренд: {{$item ->brand_paint_number_40x50}}</h2>
+                    <h2>Сложность: {{$item ->complexity_paint_number_40x50}}</h2>
                     <h2>Описание:{{$item ->description_paint_number_40x50}}</h2>
+                    <h2>Наличие: {{$item ->inStock_paint_number_40x50}}</h2>
                     <h2 class="price">Цена: {{ $item ->price_paint_number_40x50 }} рублей</h2>
                 </div>
                 <div class="buttonCart">

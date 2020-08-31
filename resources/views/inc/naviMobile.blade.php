@@ -6,9 +6,9 @@
         <ul>
             <li><a href="/"><i class="fa fa-home "></i>На главную</a></li>
             <li>
-                <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1">
-                <a href="#"><i class="fa fa-shopping-cart"></i><p class="upper">Каталог</p></a>
-                <label for="sub_m1" class="toggleSubmenu "><i class="fa"></i></label>
+                <input type="checkbox" name="toggle" class="toggleSubmenu"  id="sub_m1">
+                <a href="#" ><i class="fa fa-shopping-cart"></i><p class="upper">Каталог</p></a>
+                <label for="sub_m1" class="toggleSubmenu" ><i class="fa"></i></label>
                 <ul>
                     <!-- картины по номерам -->
                     <li>

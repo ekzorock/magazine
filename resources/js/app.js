@@ -78,8 +78,11 @@ document.onclick = (event) =>{
             let objec = JSON.parse(localStorage.getItem("muse")); //подгружаем из локал сторедж
             for(let i = 0; i<www.length; i++){//перебираем список товаров на странице
                 if(www[i].id == itemCart){// если id в списке такое же как id по которому кликнули
-                    // console.log(www['0']);
-                    objec[www[i].dataset.article] = {"article"  : www[i].dataset.article,
+                    console.log(www['0']);
+                    objec[www[i].dataset.article] = {
+                                        "id": www[i].dataset.id,
+                                        "category" : www[i].dataset.category,
+                                        "article"  : www[i].dataset.article,
                                         "name"  : www[i].dataset.name,
                                         "img"  : www[i].dataset.img,
                                         "price"  : +www[i].dataset.price,
@@ -92,7 +95,10 @@ document.onclick = (event) =>{
             let objec = {};
             for(let i = 0; i<www.length; i++){
                 if(www[i].id == itemCart){
-                    objec[www[i].dataset.article] = {"article"  : www[i].dataset.article,
+                    objec[www[i].dataset.article] = {
+                                        "id": www[i].dataset.id,
+                                        "category" : www[i].dataset.category,
+                                        "article"  : www[i].dataset.article,
                                         "name"  : www[i].dataset.name,
                                         "img"  : www[i].dataset.img,
                                         "price"  : +www[i].dataset.price,
@@ -115,9 +121,9 @@ document.querySelector('.shop_cart-cart').addEventListener("click", function ren
     for(let key in localMuse){
         cartImg.innerHTML += 
             `<div class="bascetCartRend">
-                <div class="bascetCart-article">Артикул:${localMuse[key].article}</div>
+                <div class="bascetCart-article">Арт:${localMuse[key].article}</div>
                 <div class="bascetCart-img"><img src="${localMuse[key].img}" alt="img" srcset=""></div>
-                <div class="bascetCart-name">${localMuse[key].name}</div>
+                <div class="bascetCart-name"><a href="http://127.0.0.1:8000/${localMuse[key].category}/${localMuse[key].id}">${localMuse[key].name}</a></div>
                 <div><button class="butMinus" data-minus="${localMuse[key].article}">-</button></div>
                 <div class="bascetCart-count"><input name="${localMuse[key].article}" value="${localMuse[key].count}"> </div>
                 <div><button class="butPlus" data-plus="${localMuse[key].article}">+</button></div>
@@ -232,3 +238,6 @@ thumbs.onclick = function(event) {
 
 
 // let localMuse = JSON.parse(localStorage.getItem("muse"));
+
+
+console.log('asdasd');

@@ -21,6 +21,8 @@
                     <h2 class="desc">Название: {{ $item ->name_rumbox }}</h2>
                     <h2>Артикул: {{ $item ->article_rumbox }}</h2>
                     <h2>id: {{ $item ->id_rumbox }}</h2>
+                    <h2>Бренд: {{ $item ->brand_rumbox }}</h2>
+                    <h2>Вес: {{$item ->weight_rumbox}}</h2>
                     <h2>Описание:{{$item ->description_rumbox}}</h2>
                     <h2 class="price">Цена: {{ $item ->price_rumbox }} рублей</h2>
                 </div>

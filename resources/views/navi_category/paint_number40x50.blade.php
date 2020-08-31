@@ -9,7 +9,10 @@
                 <div>
                     <h2 class="desc">Название: {{ $project ->name_paint_number_40x50 }}</h2>
                     <h2>Артикул: {{ $project ->article_paint_number_40x50 }}</h2>
-                    <h2>id картины: {{ $project ->id_paint_number_40x50 }}</h2>
+                    <!-- <h2>id картины: {{ $project ->id_paint_number_40x50 }}</h2> -->
+                    <h2>Бренд: {{$project ->brand_paint_number_40x50}}</h2>
+                    <h2>Сложность: {{$project ->complexity_paint_number_40x50}}</h2>
+                    <h2>Наличие: {{$project ->inStock_paint_number_40x50}}</h2>
                     <h2 class="price">Цена: {{ $project ->price_paint_number_40x50 }}</h2>
                 </div>
                 <div class="buttonCart">

@@ -3,5 +3,6 @@
     "/css/app.css": "/css/app.css",
     "/css/about.css": "/css/about.css",
     "/css/adaptive.css": "/css/adaptive.css",
-    "/css/mobileNavi.css": "/css/mobileNavi.css"
+    "/css/mobileNavi.css": "/css/mobileNavi.css",
+    "/js/mobileNaviJS.js": "/js/mobileNaviJS.js"
 }

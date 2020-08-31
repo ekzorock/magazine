@@ -29,7 +29,16 @@
     }
   }
 @media all and (max-width: 800px){
+    .container-pagination{
     
+        .pagination{
+            
+            li{
+                padding: 4px;
+            }
+        }
+        
+    } 
     // окно корзины
     .popup .popuptext{
         max-width: 700px;
