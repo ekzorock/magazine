@@ -4,7 +4,7 @@
     <ul class="container__itemList ">
             <li class="itemList showList" id ="{{ $item ->id_rumbox }}" data-price ="{{ $item ->price_rumbox }}" data-name="{{ $item ->name_rumbox }}" data-img="{{ $item ->imageMain_rumbox }}" data-article="{{ $item ->article_rumbox }}"> 
                 <div class="imgGalery">
-                    <p><img id="largeImg" src="{{ $item ->imageMain_rumbox }}" alt="Large image"></p>
+                    <p><img id="largeImg" src="{{ $item ->imageMain_rumbox }}" alt="Large image" tabindex="0"></p>
                     <ul id="thumbs">
                         <li>
                             <a href="{{ $item ->imageMain_rumbox }}" title="Image 1"><img src="{{ $item ->imageMain_rumbox }}"></a>

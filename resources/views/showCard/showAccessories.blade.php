@@ -4,7 +4,7 @@
     <ul class="container__itemList ">
             <li class="itemList showList" id ="{{ $item ->id_accessories }}" data-price ="{{ $item ->price_accessories }}" data-name="{{ $item ->name_accessories }}" data-img="{{ $item ->imageMain_accessories }}" data-article="{{ $item ->article_accessories }}"> 
                 <div class="imgGalery">
-                    <p><img id="largeImg" src="{{ $item ->imageMain_accessories }}" alt="Large image"></p>
+                    <p><img id="largeImg" src="{{ $item ->imageMain_accessories }}" alt="Large image" tabindex="0"></p>
                         <ul id="thumbs">
                             <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
                             <li>
