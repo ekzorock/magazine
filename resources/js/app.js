@@ -49,6 +49,9 @@ www('.submenu','.sublist');
 www('.submenu2','.sublist2');
 www('.submenu3','.sublist3');
 
+
+
+
 // Открываем корзину по клику
 document.querySelector('.shop_cart-cart').addEventListener("click", () => {
     let popup = document.getElementById("myPopup");
@@ -222,22 +225,5 @@ document.querySelector('.checkout').addEventListener('click',()=>{
 })
 
 
-// галерея в карточке товара
-thumbs.onclick = function(event) {
-    let thumbnail = event.target.closest('a');
-
-    if (!thumbnail) return;
-    showThumbnail(thumbnail.href, thumbnail.title);
-    event.preventDefault();
-  }
-
-  function showThumbnail(href, title) {
-    largeImg.src = href;
-    largeImg.alt = title;
-  }
 
 
-// let localMuse = JSON.parse(localStorage.getItem("muse"));
-
-
-console.log('asdasd');

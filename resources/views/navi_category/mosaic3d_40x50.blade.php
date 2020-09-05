@@ -2,7 +2,7 @@
 @section('content')
     <ul class="container__itemList">
         @foreach($projects as $project)
-            <li class="itemList mainList" id ="{{ $project ->id_mosaic3d_40x50 }}" data-price ="{{ $project ->price_mosaic3d_40x50 }}" data-name="{{ $project ->name_mosaic3d_40x50 }}" data-img="{{ $project ->imageMain_mosaic3d_40x50 }}" data-article="{{ $project ->article_mosaic3d_40x50 }}">
+            <li class="itemList mainList" id ="{{ $project ->id_mosaic3d_40x50 }}" data-price ="{{ $project ->price_mosaic3d_40x50 }}" data-name="{{ $project ->name_mosaic3d_40x50 }}" data-img="{{ $project ->imageMain_mosaic3d_40x50 }}" data-article="{{ $project ->article_mosaic3d_40x50 }}" data-category="mosaic3d_40x50" data-id="{{ $project ->id_mosaic3d_40x50 }}">
                 <div>
                     <img src="{{ $project ->imageMain_mosaic3d_40x50 }}" alt="" class="srcItem">
                 </div>

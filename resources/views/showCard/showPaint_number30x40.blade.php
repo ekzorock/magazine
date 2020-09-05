@@ -2,7 +2,7 @@
 
 @section('content')
     <ul class="container__itemList ">
-            <li class="itemList showList" id ="{{ $item ->id_paint_number_30x40 }}" data-price ="{{ $item ->price_paint_number_30x40 }}" data-name="{{ $item ->name_paint_number_30x40 }}" data-img="{{ $item ->imageMain_paint_number_30x40 }}" data-article="{{ $item ->article_paint_number_30x40 }}"> 
+            <li class="itemList showList" id ="{{ $item ->id_paint_number_30x40 }}" data-price ="{{ $item ->price_paint_number_30x40 }}" data-name="{{ $item ->name_paint_number_30x40 }}" data-img="{{ $item ->imageMain_paint_number_30x40 }}" data-article="{{ $item ->article_paint_number_30x40 }}" data-category="paint_number30x40" data-id="{{ $item ->id_paint_number_30x40 }}"> 
                 <div class="imgGalery">
                     <p><img id="largeImg" src="{{ $item ->imageMain_paint_number_30x40 }}" alt="Large image" tabindex="0"></p>
                         <ul id="thumbs">

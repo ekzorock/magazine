@@ -1,5 +1,13 @@
 
 @media all and (max-width: 1300px){
+    // #adap{
+    //     margin: 3px;
+    //     width: 380px;
+    //     height: 180px;
+    //     .butHome{
+    //         padding-top: 80px;
+    //     }
+    // }
     .navigate{
         display: none;
     }
@@ -11,23 +19,56 @@
     footer{
         margin-top: 30px;
     }
-    .slider_container .slider_home{
-        
+    
+    header .shop_cart{
+        position: fixed;
+        top: 10px;
+        right: 5px;
+    }
+// слайдер--------------------------
+
+    .swiper-container {
+        max-width: 1000px;
+    }
+    
+    .swiper-slide .blockSlider{
+        max-height: 225px;
+        max-width: 1000px;
+        .quote{
+            line-height: 40px;
+            font-size: 35px;
+            padding: 40px;
+            text-shadow: rgb(0, 0, 0) 2px 2px 0, rgb(0, 0, 0) -2px -2px 0, 
+                 rgb(0, 0, 0) -2px 2px 0, rgb(0, 0, 0) 2px -2px 0;
+        }
+    }
+    .swiper-slide .blockSlider1{
         max-height: 225px;
         max-width: 1000px;
         .quote{
             font-size: 20px;
             text-align: center;
             color:  rgb(92, 71, 80);
-            padding: 20px;
+            padding: 35px;
         }
     }
-    header .shop_cart{
-        position: fixed;
-        top: 10px;
-        right: 5px;
+  
+  .swiper-slide .blockSlider2{
+    max-height: 225px;
+    max-width: 1000px;
+    .quote{
+        font-weight: bold;
+        font-size: 40px;
+        color:  rgb(92, 71, 80);
+        padding: 60px;
     }
-  }
+    
+    }
+}
+
+
+
+
 @media all and (max-width: 800px){
     .container-pagination{
     
@@ -82,7 +123,7 @@
     .homeMenu .homeMenu-list1, .homeMenu .homeMenu-list2,.homeMenu .homeMenu-list3,.homeMenu .homeMenu-list4,.homeMenu .homeMenu-list5,.homeMenu .homeMenu-list6{
         margin-left: 0px;
         margin-right: 0px;
-        height: 190px;
+        height: 179px;
         .butHome{
             padding-top:80px ;
         }
@@ -112,20 +153,49 @@
         .footСontainer-helpList{
             display: none;
         }
-        .slider_container .slider_home{
-            max-width: 400px;
-            max-height: 95px;
-            .quote{
-                font-size: 15px;
-                text-align: center;
-                color:  black;
-                padding: 1px;
-            }
-        }
+      
         .navigate{
             display: none;
         }
-        
+        // --------------------слайдер
+        .swiper-container {
+            max-width: 1000px;
+        }
+        .swiper-pagination{
+            display: none;
+        }
+        .swiper-slide .blockSlider{
+            max-height: 92px;
+            max-width: 400px;
+            .quote{
+                font-size: 15px;
+                padding: 10px;
+                line-height: 25px;
+                text-shadow: rgb(0, 0, 0) 1px 1px 0, rgb(0, 0, 0) -1px -1px 0, 
+                 rgb(0, 0, 0) -1px 1px 0, rgb(0, 0, 0) 1px -1px 0;
+            }
+        }
+        .swiper-slide .blockSlider1{
+            max-height: 92px;
+            max-width: 400px;
+            .quote{
+                font-size: 15px;
+                padding: 1px;
+                color: black;
+            }
+        }
+        .swiper-slide .blockSlider2{
+            max-height: 92px;
+            max-width: 400px;
+            .quote{
+                font-size: 20px;
+                text-align: center;
+                padding: 30px;
+                color: rgb(255, 255, 255);
+                text-shadow: rgb(0, 0, 0) 1px 1px 0, rgb(0, 0, 0) -1px -1px 0, 
+                 rgb(0, 0, 0) -1px 1px 0, rgb(0, 0, 0) 1px -1px 0;
+            }
+        }
       
 }
 /* адаптив всплывающего окна корзины */

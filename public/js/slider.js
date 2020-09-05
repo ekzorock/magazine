@@ -81,41 +81,45 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/mobileNaviJS.js":
-/*!**************************************!*\
-  !*** ./resources/js/mobileNaviJS.js ***!
-  \**************************************/
+/***/ "./resources/js/slider.js":
+/*!********************************!*\
+  !*** ./resources/js/slider.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// галерея в карточке товара
-thumbs.onclick = function (event) {
-  var thumbnail = event.target.closest('a');
-  if (!thumbnail) return;
-  showThumbnail(thumbnail.href, thumbnail.title);
-  event.preventDefault();
-};
-
-function showThumbnail(href, title) {
-  largeImg.src = href;
-  largeImg.alt = title;
-}
+var swiper = new Swiper('.swiper-container', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
 
 /***/ }),
 
-/***/ 1:
-/*!********************************************!*\
-  !*** multi ./resources/js/mobileNaviJS.js ***!
-  \********************************************/
+/***/ 2:
+/*!**************************************!*\
+  !*** multi ./resources/js/slider.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\js\mobileNaviJS.js */"./resources/js/mobileNaviJS.js");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\js\slider.js */"./resources/js/slider.js");
 
 
 /***/ })

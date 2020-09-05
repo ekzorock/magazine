@@ -13,22 +13,50 @@
     margin-top: 30px;
   }
 
-  .slider_container .slider_home {
-    max-height: 225px;
-    max-width: 1000px;
-  }
-
-  .slider_container .slider_home .quote {
-    font-size: 20px;
-    text-align: center;
-    color: #5c4750;
-    padding: 20px;
-  }
-
   header .shop_cart {
     position: fixed;
     top: 10px;
     right: 5px;
+  }
+
+  .swiper-container {
+    max-width: 1000px;
+  }
+
+  .swiper-slide .blockSlider {
+    max-height: 225px;
+    max-width: 1000px;
+  }
+
+  .swiper-slide .blockSlider .quote {
+    line-height: 40px;
+    font-size: 35px;
+    padding: 40px;
+    text-shadow: black 2px 2px 0, black -2px -2px 0, black -2px 2px 0, black 2px -2px 0;
+  }
+
+  .swiper-slide .blockSlider1 {
+    max-height: 225px;
+    max-width: 1000px;
+  }
+
+  .swiper-slide .blockSlider1 .quote {
+    font-size: 20px;
+    text-align: center;
+    color: #5c4750;
+    padding: 35px;
+  }
+
+  .swiper-slide .blockSlider2 {
+    max-height: 225px;
+    max-width: 1000px;
+  }
+
+  .swiper-slide .blockSlider2 .quote {
+    font-weight: bold;
+    font-size: 40px;
+    color: #5c4750;
+    padding: 60px;
   }
 }
 
@@ -86,7 +114,7 @@
   .homeMenu .homeMenu-list6 {
     margin-left: 0px;
     margin-right: 0px;
-    height: 190px;
+    height: 179px;
   }
 
   .homeMenu .homeMenu-list1 .butHome,
@@ -126,20 +154,52 @@
     display: none;
   }
 
-  .slider_container .slider_home {
-    max-width: 400px;
-    max-height: 95px;
-  }
-
-  .slider_container .slider_home .quote {
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    padding: 1px;
-  }
-
   .navigate {
     display: none;
+  }
+
+  .swiper-container {
+    max-width: 1000px;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .swiper-slide .blockSlider {
+    max-height: 92px;
+    max-width: 400px;
+  }
+
+  .swiper-slide .blockSlider .quote {
+    font-size: 15px;
+    padding: 10px;
+    line-height: 25px;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
+  }
+
+  .swiper-slide .blockSlider1 {
+    max-height: 92px;
+    max-width: 400px;
+  }
+
+  .swiper-slide .blockSlider1 .quote {
+    font-size: 15px;
+    padding: 1px;
+    color: black;
+  }
+
+  .swiper-slide .blockSlider2 {
+    max-height: 92px;
+    max-width: 400px;
+  }
+
+  .swiper-slide .blockSlider2 .quote {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;
   }
 }
 

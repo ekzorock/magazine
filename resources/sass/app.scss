@@ -435,6 +435,7 @@ footer{
     
 } 
 // Круглые менюшки на главной
+
 .homeMenu{
     display: flex;
     flex-wrap:wrap;
@@ -499,6 +500,7 @@ footer{
         width: 400px;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -515,6 +517,7 @@ footer{
         border: 2px solid red;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -531,6 +534,7 @@ footer{
         border: 2px solid red;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -547,6 +551,7 @@ footer{
         border: 2px solid red;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -563,6 +568,7 @@ footer{
         border: 2px solid red;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -579,6 +585,7 @@ footer{
         border: 2px solid red;
         border-radius: 15px;
         border: 2px solid rgba(148,187,233,1);
+        cursor: pointer;
         &:hover{
                 -webkit-transform: scale(1.1);
                 -ms-transform: scale(1.1);
@@ -719,6 +726,85 @@ footer{
 .glist{
     border: none;
 }
+// slider
+
+
+    .swiper-container {
+        max-width: 1260px;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .swiper-slide {
+     
+      
+        .blockSlider{
+            background-image: url(/images/homeMenu/banner_slider.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            width: 1260px;
+            max-height: 300px;
+            border-radius: 15px;
+            border: 2px solid rgba(148,187,233,1);
+            .quote{
+                font-weight: bold;
+                font-size: 50px;
+                text-align: center;
+                text-transform: uppercase;
+                color:  rgb(255, 255, 255);
+                padding: 60px;
+                text-shadow: rgb(0, 0, 0) 1px 1px 0, rgb(0, 0, 0) -1px -1px 0, 
+                 rgb(0, 0, 0) -1px 1px 0, rgb(0, 0, 0) 1px -1px 0;
+            }
+        }
+        .blockSlider1{
+            background-image: url(/images/homeMenu/banner_home.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            width: 1260px;
+            max-height: 300px;
+            border-radius: 15px;
+            border: 2px solid rgba(148,187,233,1);
+            .quote{
+                font-size: 30px;
+                text-align: center;
+                color:  rgb(92, 71, 80);
+                padding: 40px;
+            }
+        }
+        .blockSlider2{
+            background-image: url(/images/homeMenu/banner_slider1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            width: 1260px;
+            max-height: 300px;
+            border-radius: 15px;
+            border: 2px solid rgba(148,187,233,1);
+            .quote{
+                font-size: 45px;
+                text-align: center;
+                color:  rgb(92, 71, 80);
+                padding: 90px;
+               
+            }
+        }
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 //баннер со статьей
 .slider_container{
         text-align: center;
@@ -741,6 +827,7 @@ footer{
             padding: 40px;
         }
 }
+
 
 .show1{
     display: none;

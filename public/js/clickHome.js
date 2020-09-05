@@ -81,41 +81,53 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/mobileNaviJS.js":
-/*!**************************************!*\
-  !*** ./resources/js/mobileNaviJS.js ***!
-  \**************************************/
+/***/ "./resources/js/clickHome.js":
+/*!***********************************!*\
+  !*** ./resources/js/clickHome.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// галерея в карточке товара
-thumbs.onclick = function (event) {
-  var thumbnail = event.target.closest('a');
-  if (!thumbnail) return;
-  showThumbnail(thumbnail.href, thumbnail.title);
-  event.preventDefault();
+// клики по главным круглым менюшкам
+document.querySelector('.homeMenuOneClick1').onclick = function () {
+  window.location.href = "/paint_number40x50";
 };
 
-function showThumbnail(href, title) {
-  largeImg.src = href;
-  largeImg.alt = title;
-}
+document.querySelector('.homeMenuOneClick2').onclick = function () {
+  window.location.href = "/diamond_sircle_40x50";
+};
+
+document.querySelector('.homeMenuOneClick3').onclick = function () {
+  window.location.href = "/embroidery_40x50";
+};
+
+document.querySelector('.homeMenuOneClick4').onclick = function () {
+  window.location.href = "/rumbox";
+};
+
+document.querySelector('.homeMenuOneClick5').onclick = function () {
+  window.location.href = "#";
+};
+
+document.querySelector('.homeMenuOneClick6').onclick = function () {
+  window.location.href = "/accessories";
+};
 
 /***/ }),
 
-/***/ 1:
-/*!********************************************!*\
-  !*** multi ./resources/js/mobileNaviJS.js ***!
-  \********************************************/
+/***/ 3:
+/*!*****************************************!*\
+  !*** multi ./resources/js/clickHome.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\js\mobileNaviJS.js */"./resources/js/mobileNaviJS.js");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\magazine\resources\js\clickHome.js */"./resources/js/clickHome.js");
 
 
 /***/ })
