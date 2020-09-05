@@ -58,5 +58,9 @@ class ProductController extends Controller
         $item = \App\Accessory::where('id_accessories', $product_id) -> first();
         return view('showCard.showAccessories',['item' => $item]);
     }
+    public function showWood_pictures_40x50($product_id){
+        $item = \App\WoodPictures_40x50::where('id_wood_pictures_40x50', $product_id) -> first();
+        return view('showCard.showWood_pictures_40x50',['item' => $item]);
+    }
     
 }

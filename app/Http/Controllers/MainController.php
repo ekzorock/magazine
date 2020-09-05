@@ -46,6 +46,10 @@ class MainController extends Controller
         $projects = \App\Rumbox::paginate(9); //пагинация
         return view('navi_category/rumbox', compact('projects'));
     }
+    public function thanks (){
+        return view('thanks_for_your_order');
+    }
+
     public function paint_number30x40(){
         $projects = \App\Paint_number_30x40::paginate(9); //пагинация
         return view('navi_category/paint_number30x40', compact('projects'));
@@ -91,6 +95,12 @@ class MainController extends Controller
         $projects = \App\Embroidery_40x50::paginate(9); //пагинация
         return view('navi_category/embroidery_40x50', compact('projects'));
     }
+    public function wood_pictures_40x50(){
+        $projects = \App\WoodPictures_40x50::paginate(9); //пагинация
+        return view('navi_category/wood_pictures_40x50', compact('projects'));
+    }
+
+
     public function accessories(){
         $projects = \App\Accessory::paginate(9); //пагинация
         return view('navi_category/accessories', compact('projects'));
@@ -109,6 +119,6 @@ class MainController extends Controller
             $message->to('ekzo_rock@mail.ru','magazine') -> subject('Новый заказ');//кому
             $message->from('rockfoksi@gmail.com', 'Интернет-магазин "Muse"'); // от кого 
         });
-        return redirect('/');        
+        return redirect('thanks_for_your_order');        
     }    
 }

@@ -6,16 +6,7 @@
 @endsection
 
 @section('content')
-    <!-- <section>
-        <div class="slider_container">
-            <div class="slider_home">
-                <h2 class="quote">Безошибочный признак того, <br> что что-то не является искусством или <br> кто-то не
-                понимает искусства, - это скука... <br> Искусство должно быть средством воспитания, <br> но цель его удовольствие!
-                <br> Бертольд Брехт.
-                </h2>
-            </div>
-        </div>
-    </section> -->
+    
 
 <!-- Slider main container -->
 <section>
@@ -109,7 +100,7 @@
                 <div class="butHome">
                     <div class="buthome-button">
                         <div>
-                            <a href="">Перейти</a>
+                            <a href="/wood_pictures_40x50">Перейти</a>
                         </div>
                     </div>
                 </div>

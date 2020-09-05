@@ -20,6 +20,7 @@ Route::get('/about', 'MainController@about');
 Route::get('/contact', 'MainController@contact');
 Route::get('/delivery','MainController@delivery');
 Route::get('/adminpanel', 'MainController@admin')->middleware('auth');
+Route::get('/thanks_for_your_order', 'MainController@thanks');
 
 // румбоксы
 Route::get('/rumbox', 'MainController@rumbox'); //all
@@ -57,6 +58,9 @@ Route::get('/embroidery_40x40/{product_id}', 'ProductController@showEmbroidery_4
 // вышивка крестиком 40х50
 Route::get('/embroidery_40x50', 'MainController@embroidery_40x50');// all
 Route::get('/embroidery_40x50/{product_id}', 'ProductController@showEmbroidery_40x50') -> name('showCard11');// cart item
+// картины по дереву 40х50
+Route::get('/wood_pictures_40x50', 'MainController@wood_pictures_40x50');// all
+Route::get('/wood_pictures_40x50/{product_id}', 'ProductController@showWood_pictures_40x50') -> name('showCard13');// cart item
 // аксессуары
 Route::get('/accessories', 'MainController@accessories');// all
 Route::get('/showAccessories/{product_id}', 'ProductController@showAccessories') -> name('showCard12');// cart item

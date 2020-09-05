@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="">
+    <link rel="shortcut icon" href="/images/about/favicon.ico" type="image/x-icon">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="width">
     <title> @yield('title_block')</title>

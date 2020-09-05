@@ -19,7 +19,7 @@
                             <li><a href="/paint_number30x40">Картины 30х40</a></li>
                             <li><a href="/paint_number40x50">Картины 40х50</a></li>
                             <li><a href="/trip_number40x50">Триптихи 40х50</a></li>
-                            <li><a href="#">Картины по дереву</a></li>
+                            <li><a href="/wood_pictures_40x50">Картины по дереву</a></li>
                         </ul>
                     </li>
                     <!-- Алмазная мозайка -->

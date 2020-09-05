@@ -13,7 +13,7 @@
                     <h2>Бренд: {{$project ->brand_trip_number_40x50}}</h2>
                     <h2>Сложность: {{$project ->complexity_trip_number_40x50}}</h2>
                     <h2>Наличие: {{$project ->inStock_trip_number_40x50}}</h2>
-                    <h2 class="price">Цена: {{ $project ->trip_number_40x50 }}</h2>
+                    <h2 class="price">Цена: {{ $project ->price_trip_number_40x50 }}</h2>
                 </div>
                 <div class="buttonCart">
                     <a href="{{route('showCard3',[$project ->id_trip_number_40x50])}}" class="decriptionItem">Подробнее</a>

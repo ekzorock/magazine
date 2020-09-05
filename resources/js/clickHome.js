@@ -12,7 +12,7 @@
     window.location.href = "/rumbox";
   }
   document.querySelector('.homeMenuOneClick5').onclick = ()=> {
-    window.location.href = "#";
+    window.location.href = "/wood_pictures_40x50";
   }
   document.querySelector('.homeMenuOneClick6').onclick = ()=> {
     window.location.href = "/accessories";

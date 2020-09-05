@@ -247,6 +247,51 @@
   color: white;
 }
 
+.thanksBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 20%;
+}
+
+.thanksBlock .mainSite {
+  margin-top: 20px;
+}
+
+.thanksBlock .mainSite a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 250px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: rgba(121, 54, 209, 0.452);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.thanksBlock .mainSite a:hover {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+  box-shadow: 0 15px 20px rgba(121, 54, 209, 0.452);
+  color: white;
+  transform: translateY(-7px);
+}
+
+.thanksBlock .text {
+  font-size: 35px;
+  text-align: center;
+}
+
 @media all and (max-width: 1300px) {
   .description_magazine {
     margin: 5px;

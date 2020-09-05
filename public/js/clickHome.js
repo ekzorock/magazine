@@ -111,7 +111,7 @@ document.querySelector('.homeMenuOneClick4').onclick = function () {
 };
 
 document.querySelector('.homeMenuOneClick5').onclick = function () {
-  window.location.href = "#";
+  window.location.href = "/wood_pictures_40x50";
 };
 
 document.querySelector('.homeMenuOneClick6').onclick = function () {
